@@ -215,3 +215,11 @@ form{
     top: 120px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 550px) {
+
+	form{
+		width: 70%;
+	}
+	
+}
