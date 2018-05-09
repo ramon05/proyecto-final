@@ -1,0 +1,217 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+form{
+	width: 470px;
+	height: 450px;
+	background: #922B21;
+	margin: auto;
+	margin-top: 100px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+#imgRegistrar{
+	width: 150px;
+	background: #D0ECE7;
+	border-radius: 100px;
+	margin-top: -85px;
+}
+
+#lbl-Registrar{
+	font-family: Arial;
+	font-size: 24px;
+	margin-left: 500px;
+	margin: auto;
+	color: white;
+}
+
+#nombre{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 10px;
+}
+
+.imgNombre input[type=text]{
+	position: relative;
+}
+
+.imgNombre i{
+	position: absolute;
+	top: 250px;
+	margin-left: 10px;
+
+}
+
+#nombre:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#apellido{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 25px;
+}
+
+.imgApellido input[type=text]{
+	position: relative;
+}
+
+.imgApellido i{
+	position: absolute;
+	top: 295px;
+	margin-left: 10px;
+
+}
+
+#apellido:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#usuario{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 40px;
+}
+
+.imgUsuario input[type=text]{
+	position: relative;
+}
+
+.imgUsuario i{
+	position: absolute;
+	top: 345px;
+	margin-left: 10px;
+
+}
+
+#usuario:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#contrasena{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 60px;
+}
+
+.imgContrasena input[type=password]{
+	position: relative;
+}
+
+.imgContrasena i{
+	position: absolute;
+	top: 395px;
+	margin-left: 10px;
+
+}
+
+#contrasena:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#pregunta{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 80px;
+}
+
+.imgPregunta input[type=text]{
+	position: relative;
+}
+
+.imgPregunta i{
+	position: absolute;
+	top: 448px;
+	margin-left: 10px;
+
+}
+
+#pregunta:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#respuesta{
+	width: 100%;
+	height: 32px;
+	text-indent: 48px;
+	font-size: 16px;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+	border-style: none;
+	position: relative;
+	top: 100px;
+}
+
+.imgRespuesta input[type=text]{
+	position: relative;
+}
+
+.imgRespuesta i{
+	position: absolute;
+	top: 500px;
+	margin-left: 10px;
+
+}
+
+#respuesta:focus{
+	background: #D0ECE7;
+	color: red;
+	border-style: none;
+	transition: all 200ms cubic-bezier(0,0,0,0);
+
+}
+
+#registrar-button{
+	width: 100%;
+	height: 38px;
+    position: relative;
+    top: 120px;
+    font-size: 18px;
+}
