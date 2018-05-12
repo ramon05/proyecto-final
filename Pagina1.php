@@ -7,21 +7,21 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-     <form>
+     <form  action="conexion.php" method="post">
          <center><img src="img/user.png" id="img"></center>
          <center><label id="iniciar">Iniciar Sesión</label></center>
 
          <div class="imgImpText">
-         	<input type="text" name="usurio" id="usuario" placeholder="nombre usuario"></br></br>
+         	<input type="text" name="login" id="usuario" placeholder="nombre usuario"></br></br>
 	        <i class="icon-users"></i>
          </div>
 	     
 	     <div class="imgImpPass">
-	     	<input type="password" name="contraseña" id="contraseña" placeholder="contraseña"></br></br>
+	     	<input type="password" name="password" id="contraseña" placeholder="contraseña"></br></br>
 	        <i class="icon-key"></i>
 	     </div>
 	     
-	     <center><input type="button" id="iniciar-button" name="Iniciar" value="Iniciar Sesión"></center>
+	     <center><input type="submit" id="iniciar-button" name="Iniciar" value="Iniciar Sesión"></center>
 
 	     <label id="registro">Registrate si no tiene usuario <a href="pagina2.php">Registrar</a></label>
      </form>    

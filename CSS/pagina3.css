@@ -75,3 +75,11 @@ form{
 	font-size: 17px;
 
 }
+
+@media screen and (max-width: 550px) {
+
+	form{
+		width: 70%;
+	}
+	
+}
