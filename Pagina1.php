@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-     <form  action="conexion.php" method="post">
+     <form  action="LoginDB.php" method="post">
          <center><img src="img/user.png" id="img"></center>
          <center><label id="iniciar">Iniciar Sesión</label></center>
 
