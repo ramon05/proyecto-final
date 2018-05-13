@@ -1,9 +1,12 @@
 <?php
+
     include("conexion.php");
-    
+
+    $conexion=conectar();
+
    $sql="SELECT * FROM usuarios WHERE usuario= :login AND PASSWORD= :password";
 
-   $resultado=$base->prepare($sql);
+   $resultado=$conexion->prepare($sql);
 
    $login=htmlentities(addslashes($_POST["login"]));
 
