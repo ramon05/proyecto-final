@@ -32,27 +32,17 @@
 	else{
 
 		try {
-
-	    //$query="INSERT INTO usuarios ('usuario', 'password', 'nombre', 
-    	//'apellido', 'pregunta', 'respuesta') VALUES (:user, :contra, :nomb, :apell, :preg, :resp)";		
+	
         $query=$conexion->prepare("INSERT INTO usuarios(usuario, password, nombre, apellido, pregunta, respuesta ) VALUES (:user, :contra, :nomb, :apell, :preg, :resp)");
-    	//$nuevoUsuario=$conexion->prepare($query);
-
-         //$nuevoUsuario->bindParam(':apell',$apellido, PDO::PARAM_STR);
-         //$nuevoUsuario->bindParam(':nomb',$nombre, PDO::PARAM_STR);
-         //$nuevoUsuario->bindParam(':contra',$contraseña, PDO::PARAM_STR);
-         //$nuevoUsuario->bindParam(':pregtSect',$pregunta_sect, PDO::PARAM_STR);
-         //$nuevoUsuario->bindParam(':resptSect',$respuesta_sect, PDO::PARAM_STR);
-         //$nuevoUsuario->bindParam(':user',$usuario, PDO::PARAM_STR);
-
-         //$ejecutar=$nuevoUsuario->execute();
 
     	$nuevoUsuario=$query->execute(array(":user"=>$usuario, ":contra"=>$contraseña, ":nomb"=>
     		$nombre, ":apell"=>$apellido, ":preg"=>$pregunta_sect, ":resp"=>$respuesta_sect));
 
-    		$mensaje='<div clas="mensj">
+
+    	$mensaje='<div clas="mensj">
     	<p>Se ha Registrado exitosamente</p>
     	</div>';
+
         echo "se han guardado correctamente";
         $resultado->closeCursor();
 

@@ -23,7 +23,8 @@
 	     
 	     <center><input type="submit" id="iniciar-button" name="Iniciar" value="Iniciar Sesión"></center>
 
-	     <label id="registro">Registrate si no tiene usuario <a href="pagina2.php">Registrar</a></label>
+     <label id="registro">Registrate si no tiene usuario <a href="pagina2.php">Registrar</a></label></br>
+     <label id="registro">Recuperar Contraseña <a href="pagina3.php">Recuperar</a></label>
      </form>    
 </body>
 </html>

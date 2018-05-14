@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-     <form>
+     <form action="Mantenimiento_Recuperar_Contraseña.php" method="post">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Recuperar Contraseña</label></center>
 
@@ -16,7 +16,7 @@
 	        <i class="icon-user"></i>
          </div>
 
-	     <center><input type="button" id="btnRecuperar" name="Iniciar" value="Iniciar Sesión"></center>
+	     <center><input type="submit" id="btnRecuperar" name="Iniciar" value="Iniciar Sesión"></center>
 
 	     <label id="volver">Regresa al usuario <a href="pagina1.php">Volver al Usuario</a></label>
      </form>    
