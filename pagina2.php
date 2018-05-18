@@ -23,22 +23,35 @@
 		</div>
 		
 		<div class="imgUsuario">
-			<input type="text" name="user" id="usuario" placeholder="Ingresar Usuario..">
+			<input type="text" name="user" id="usuario" placeholder="Ingresar Usuario.."></br>
 		    <i class="icon-user-check"></i>
 		</div>
 		
 		<div class="imgContrasena">
-			<input type="password" name="contra" id="contrasena" placeholder="ingresar Contraseña..">
+			<input type="password" name="contra" id="contrasena" placeholder="ingresar Contraseña.."></br>
             <i class="icon-key2"></i>
 		</div>
         
         <div class="imgPregunta">
-        	<input type="text" name="preg" id="pregunta" placeholder="Pregunta Secreta..">
+        	<!--<input type="text" name="preg" id="pregunta" placeholder="Pregunta Secreta.."></br>-->
+        	<select name="preg" id="pregunta">
+    		   <option value="">Selecionar Preguntas</option>
+    		   <option value="¿Nombre de tu libro favorito?">¿Nombre de tu libro favorito?</option>
+    		   <option value="¿Cual es tu cancion favorita?">¿Cual es tu cancion favorita?</option>
+    		   <option value="¿Nombre de tu mejor amigo?">¿Nombre de tu mejor amigo?</option>
+    		   <option value="¿Cual es tu hubie?">¿Cual es tu hubie?</option>
+    		   <option value="¿Cual es tu escritor favorito?">¿Cual es tu escritor favorito?</option>
+    		   <option value="¿Cual era tu apodo de pequeno(a)?">¿Cual era tu apodo de pequeno(a)?</option>
+    		   <option value="¿En que lugar de naciste?">¿En que lugar de naciste?</option>
+    		   <option value="¿Cual es tu equipo de beisbol favorito?">¿Cual es tu equipo de beisbol favorito?</option>
+    		   <option value="¿Nombre de tu primera mascota?">¿Nombre de tu primera mascota?</option>
+    		   <option value="¿Cual es tu color favorito?">¿Cual es tu color favorito?</option>
+        	</select></br>
             <i class="icon-question"></i>
         </div>
         
         <div class="imgRespuesta">
-        	<input type="text" name="resp" id="respuesta" placeholder="Respuesta Secreta..">
+        	<input type="text" name="resp" id="respuesta" placeholder="Respuesta Secreta.."></br>
             <i class="icon-checkmark"></i>
         </div>
         

@@ -1,10 +1,9 @@
-
-
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Bienvenida al Usuario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/pagina_genearal.css">
 </head>
 <body>
     <?php 
@@ -16,9 +15,24 @@
 		   	   	header("Location:Pagina1.php");
 		  }
 	?>
-	<h1>Bienvenidos Usuarios</h1>
+	<div class="listma">
+		<nav>
+			<div class="logo">LOGO</div>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			
+		</nav>
+	</div>
 
-	<p>Esta pagina te da la bienvenida</p>
+    <div>
+    	<h1>Bienvenidos Usuarios</h1>
+
+	    <p>Esta pagina te da la bienvenida</p>
+    </div>
+	
 
 	<a href="CerrarSeccion.php">Cerrar Sección</a>
 
