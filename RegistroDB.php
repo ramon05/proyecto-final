@@ -43,7 +43,7 @@
     	<p>Se ha Registrado exitosamente</p>
     	</div>';
 
-        echo "se han guardado correctamente";
+        header("Location:Pagina1.php");
         $resultado->closeCursor();
 
     	} catch (PDOExeption $e) {

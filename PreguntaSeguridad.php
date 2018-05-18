@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-     <form>
+     <form action="PreguntaSeguridadDB.php" method="post">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Pregunta de Seguridad</label></center>
          <div class="imgPregunta">
@@ -28,11 +28,11 @@
             <i class="icon-question"></i>
         </div>
          <div class="imgRespuesta">
-         	<input type="text" name="respuesta" id="respuesta" placeholder="Respuesta..."></br></br>
+         	<input type="text" name="resp" id="respuesta" placeholder="Respuesta..."></br></br>
 	        <i class="icon-checkmark"></i>
          </div>
 
-	     <center><input type="button" id="btnResponder" name="respoder" value="Responder"></center>
+	     <center><input type="submit" id="btnResponder" name="respoder" value="Responder"></center>
 
 	     <label id="lbl-volverResp">Regresa al usuario <a href="pagina1.php">Volver al Usuario</a></label>
      </form>    
