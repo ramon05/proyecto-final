@@ -10,7 +10,7 @@
 
 	  session_destroy();
 
-	  header("location: Pagina1.php");
+	  header("Location:PaginaDespedida.php");
 	?>	
 </body>
 </html>
