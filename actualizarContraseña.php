@@ -7,12 +7,12 @@
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 </head>
 <body>
-     <form action="Mantenimiento_Recuperar_Contraseña.php" method="post" id="formActualizar">
+     <form action="actualizarContraseñaDB.php" method="post" id="formActualizar">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Cambiar Contraseña</label></center>
 
          <div class="imgUsuarioRecup">
-         	<input type="text" name="usurio" id="usuario" placeholder="nombre usuario"></br></br>
+         	<input type="text" name="usuario" id="usuario" placeholder="nombre usuario"></br></br>
 	        <i class="icon-user"></i>
          </div>
 

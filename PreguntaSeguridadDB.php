@@ -22,14 +22,12 @@
 
 	if ($cantRegistro>0) {
 
-	//session_start();
-	//$_SESSION["usuario"]=$_POST["login"];
-
-		 //header("Location:index.php");
-	    echo "ha atualizado";
+	    header("Location:actualizarContraseña.php");
 	}
 	else{
 
-		  echo "pregunta y respuesta incorrecta";
+		//echo "pregunta y respuesta incorrecta";
+		echo "<script>alert('La pregunta o respuesta son incorrecta, por favor digite las correspondientes');</script>";
+        echo "<meta http-equiv='refresh' content='0;url=PreguntaSeguridad.php' />";
 	} 
 ?>

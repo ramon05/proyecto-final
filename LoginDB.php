@@ -28,8 +28,9 @@
 		 header("Location:index.php");
 	}
 	else{
-
-		  header("Location:Pagina1.php");
+        
+        echo "<script>alert('Usuario o Contraseña incorrectos o no existen en la Base De Datos');</script>";
+        echo "<meta http-equiv='refresh' content='0;url=pagina1.php' />";
 	}
 
 ?>

@@ -25,7 +25,8 @@
 	}
 	else{
 
-		  echo '<script> alert("<h3>contraseña incorrecta</h3>");</script>';
+		echo "<script>alert('Usuario incorrecto o no existe en Base de Datos');</script>";
+        echo "<meta http-equiv='refresh' content='0;url=pagina3.php' />";
 		  
 	}
 
