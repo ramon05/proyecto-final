@@ -5,9 +5,11 @@
 	<title>Usuario</title>.
 	<link rel="stylesheet" type="text/css" href="CSS/pagina3.css">
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+    <script type="text/javascript" src="js/validadadCampos.js"></script>
 </head>
 <body>
-     <form action="Mantenimiento_Recuperar_Contraseña.php" method="post">
+     <form action="Mantenimiento_Recuperar_Contraseña.php" method="post" 
+     onsubmit="return validarPagina3()">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Recuperar Contraseña</label></center>
 

@@ -5,9 +5,11 @@
 	<title>Cambiar Contraseña</title>.
 	<link rel="stylesheet" type="text/css" href="CSS/pagina3.css">
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+    <script type="text/javascript" src="js/validadadCampos.js"></script>
 </head>
 <body>
-     <form action="actualizarContraseñaDB.php" method="post" id="formActualizar">
+     <form action="actualizarContraseñaDB.php" method="post" id="formActualizar" 
+        onsubmit="return actualizarContra()">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Cambiar Contraseña</label></center>
 

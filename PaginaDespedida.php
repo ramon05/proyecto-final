@@ -22,7 +22,7 @@
     <div id="BienvendidaUsuario">
     	<h1>Adios espero que vuelva Pronto</h1>
 
-    	<img src="img/tenor.gif" id="imgGif">
+    	<img src="img/tenor.gif" id="imgGifDesp">
    
 	    <p>Esta pagina te da la despedida</p>
     </div>

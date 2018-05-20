@@ -123,6 +123,13 @@ nav ul li a:hover{
     margin-top: -40px;
 }
 
+#imgGifDesp{
+	top: 0px;
+    width: 200px;
+    height: 130px;
+    margin-top: -40px;
+}
+
 #list{
 	position: relative;
 	width: 400px;

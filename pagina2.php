@@ -5,11 +5,11 @@
 	<title>Registrar</title>
 	<link rel="stylesheet" type="text/css" href="CSS/pagina2.css">
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+    <script type="text/javascript" src="js/validadadCampos.js"></script>
 </head>
 <body>
 
-	<? echo $mensaje; ?>
-	<form action="RegistroDB.php" method="post">
+	<form action="RegistroDB.php" method="post" onsubmit="return validarPagina2()">
 		<center><img src="img/user_add.png" id="imgRegistrar"></center>
         <center><label id="lbl-Registrar">Registrar</label></center>
 		<div class="imgNombre">

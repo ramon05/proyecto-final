@@ -107,6 +107,14 @@ form{
 
 }
 
+.campo{
+	border:solid 4px #cece76;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 35px;
+	width: 300px;
+}
+
 @media screen and (max-width: 550px) {
 
 	form{

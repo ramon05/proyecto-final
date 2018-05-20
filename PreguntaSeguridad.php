@@ -6,9 +6,10 @@
 	<title>Usuario</title>.
 	<link rel="stylesheet" type="text/css" href="CSS/pagina3.css">
 	<link rel="stylesheet" type="text/css" href="fonts/style.css">
+    <script type="text/javascript" src="js/validadadCampos.js"></script>
 </head>
 <body>
-     <form action="PreguntaSeguridadDB.php" method="post">
+     <form action="PreguntaSeguridadDB.php" method="post" onsubmit="return PreguntaSeguridad()">
          <center><img src="img/favicon.ico" id="imgRecuperar"></center>
          <center><label id="lbl-recuperar">Pregunta de Seguridad</label></center>
          <div class="imgPregunta">
